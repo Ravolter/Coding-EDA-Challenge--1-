@@ -8,7 +8,7 @@ library(lubridate)
 library(sqldf)
 library(reshape2)
 
-setwd("E:/All online courses/Oolala Cabs")
+setwd("E:/All online courses/ola Cabs")
 dataset_raw <- read.csv("dataset.csv", stringsAsFactors = F)
 summary(dataset_raw)
 dim(dataset_raw)
